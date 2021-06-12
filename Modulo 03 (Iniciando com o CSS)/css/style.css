@@ -13,11 +13,19 @@
 	padding: 0;
 }
 
+html,body{
+	height: 100%;
+}
+
 .artigo{
-	width: 1280px;
+	width: 80%; /*Design responsivo*/
+	max-width: 300px;
+	height: auto;
 	background-color: rgb(200, 200, 200);
+	/*
 	padding: 20px;
 	margin: 40px auto;
+	*/
 	text-align: center;
 }
 
