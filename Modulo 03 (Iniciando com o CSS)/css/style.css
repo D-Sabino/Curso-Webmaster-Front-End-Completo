@@ -1,0 +1,45 @@
+/*.div1 chama pela classe*/
+/* Aplica em todos os h1 dentro de div1 */
+/*#div1 h1{color: red;}*/
+/* Ataque o h1, apenas se ele estiver diretamente dentro da DIV2 (se for filha) */
+/*#div2 > h1{color: orange;}*/
+/* Todos os elementos presentes */
+/*{margin: 0;padding: 0;}*/
+/*.menu{width: 900px;margin: 30px auto;text-align: center;/* padding-left: 10; Espaçamento interno */}
+/*.menu > a{text-decoration: none;font-size: 20px;margin: 0 10px;color: red;padding: 5px;border: 3px solid red;}*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.artigo{
+	width: 1280px;
+	background-color: rgb(200, 200, 200);
+	padding: 20px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.artigo h1{
+	color: #069;
+	font-size: 23px;
+	font-family: tahoma, Times, sans-serif;
+	
+	/*
+	font-style: normal;
+	font-weight: normal;
+	font-variant: ;
+	*/
+}
+
+.artigo p{
+	color: rgb(300, 300, 300);
+	text-align: left;
+	font-size: 17px;
+	font-family: 'tahoma';
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 40px;
+	margin-top: 12px;
+}
