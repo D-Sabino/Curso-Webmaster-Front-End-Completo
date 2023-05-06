@@ -49,13 +49,13 @@ form h2{
 	color: rgb(100,100,100);
 }
 
-.radio-input{
+.input{
 	display: inline-block;
 	text-align: left;
 	margin-top: 20px;
 }
 
-.radio-input span{
+.input span{
 	margin-left: 13px;
 	font-size: 16px;
 	color: rgb(130,130,130);
